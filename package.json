@@ -1,0 +1,19 @@
+{
+  "name": "node-explain",
+  "version": "1.0.0",
+  "description": "Explain Node.js Error and Deprecation Codes",
+  "main": "lib/index.js",
+  "bin": {
+    "node-explain": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James M Snell <jasnell@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "minimist": "^1.2.0",
+    "opn": "^5.1.0"
+  }
+}
